@@ -53,4 +53,12 @@ except requests.exceptions.RequestException as e:
 ```
 ## Terminal
 <img width="1565" height="139" alt="Screenshot 2025-12-18 232215" src="https://github.com/user-attachments/assets/b0d52b6d-5af5-4b75-a394-555cc8efa7d2" />
+## Code Explanation
 
+This Python script is designed to track the price of a selected product on the Amazon platform using web scraping techniques. First, the requests library is imported to send HTTP requests, and the BeautifulSoup library is imported to parse and analyze the HTML content of the web page.
+The Amazon product URL is defined, and a set of HTTP request headers is created. These headers simulate real browser behavior by specifying information such as the user agent, accepted languages, and connection preferences. This helps reduce the chance of the request being blocked by Amazon.
+The script then sends a GET request to the specified URL using the requests.get() method. The raise_for_status() function is used to check for HTTP errors and ensure that the request was successful before continuing.
+After receiving the response, the HTML content of the page is parsed using BeautifulSoup. The script attempts to locate the product title by searching for the HTML element with the productTitle ID. If this element is not found, an alternative selector is used to handle different page structures.
+Next, the script searches for the product price using the a-offscreen class, which is commonly used by Amazon to display prices. If the price element is not found, a secondary selector is used as a fallback option.
+If the product title and price are successfully found, they are cleaned using the strip() method and printed to the terminal. If either element cannot be located, the script displays an informative message instead of crashing.
+Finally, a try-except block is used to handle possible request-related errors. This ensures that the program remains stable even if the request fails or the website restricts access.
