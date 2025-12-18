@@ -48,3 +48,6 @@ try:
 
 except requests.exceptions.RequestException as e:
     print(f"Request failed: {e}")
+```
+<img width="1565" height="139" alt="Screenshot 2025-12-18 232215" src="https://github.com/user-attachments/assets/b0d52b6d-5af5-4b75-a394-555cc8efa7d2" />
+
