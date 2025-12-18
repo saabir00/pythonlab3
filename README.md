@@ -47,4 +47,4 @@ try:
         print("Price not found - Amazon may have blocked the request")
 
 except requests.exceptions.RequestException as e:
-    print(f"Request failed: {e}") '''
+    print(f"Request failed: {e}")
