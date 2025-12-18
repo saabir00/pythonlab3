@@ -53,8 +53,8 @@ except requests.exceptions.RequestException as e:
 ```
 ## Terminal
 <img width="1565" height="139" alt="Screenshot 2025-12-18 232215" src="https://github.com/user-attachments/assets/b0d52b6d-5af5-4b75-a394-555cc8efa7d2" />
-## Code Explanation
 
+## Code Explanation
 This Python script is designed to track the price of a selected product on the Amazon platform using web scraping techniques. First, the requests library is imported to send HTTP requests, and the BeautifulSoup library is imported to parse and analyze the HTML content of the web page.
 The Amazon product URL is defined, and a set of HTTP request headers is created. These headers simulate real browser behavior by specifying information such as the user agent, accepted languages, and connection preferences. This helps reduce the chance of the request being blocked by Amazon.
 The script then sends a GET request to the specified URL using the requests.get() method. The raise_for_status() function is used to check for HTTP errors and ensure that the request was successful before continuing.
