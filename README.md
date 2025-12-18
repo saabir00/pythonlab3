@@ -1,7 +1,9 @@
 # pythonlab3
+## Product info
 Here is browser page of my example product
 <img width="1225" height="685" alt="Screenshot 2025-12-18 231359" src="https://github.com/user-attachments/assets/6c6bc5f0-1a4b-467f-a7b7-40ebc83c79c8" />
-
+and its links are - https://www.amazon.com/Batman-Special-Figures-Anniversary-Collectible/dp/B0CSYH7K31/ref=pd_rhf_gw_s_pd_sbs_rvi_d_sccl_1_14/144-4722195-4305801?pd_rd_w=vwXzn&content-id=amzn1.sym.6640a844-ab24-4352-ac9b-78899e683a5e&pf_rd_p=6640a844-ab24-4352-ac9b-78899e683a5e&pf_rd_r=1ZXX2BTQSAXVDZ3VS6RX&pd_rd_wg=JV2ft&pd_rd_r=5d231db7-49fa-46f4-b378-642db036280f&pd_rd_i=B0CSYH7K31&psc=1
+or https://www.amazon.com/dp/B0CSYH7K31
 ## Code (script.py)
 ```
 import requests
